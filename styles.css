@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #0f0f0f;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: #1a1a1a;
+    padding: 2rem;
+    border-radius: 1.5rem;
+    width: 90%;
+    max-width: 400px;
+    color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    white-space: nowrap;
+    width: 100%;
+}
+
+.search-box {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+.search-box input {
+    flex: 1;
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+    border: 2px solid white;
+    background-color: white;
+    color: black;
+    font-size: 1rem;
+}
+
+.search-box button {
+    background-color: #7B68EE;
+    border: none;
+    border-radius: 0.5rem;
+    width: 45px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-box button:hover {
+    background-color: #6A5ACD;
+}
+
+.search-box button .material-icons {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.weather-data {
+    text-align: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    padding-top: 2rem;
+    margin-top: 1rem;
+}
+
+.city-name {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.temperature {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin: 1rem 0;
+}
+
+.weather-description {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    text-transform: capitalize;
+}
+
+.weather-details {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+}
+
+.weather-details .material-icons {
+    margin-right: 0.5rem;
+}
+
+.humidity, .wind {
+    display: flex;
+    align-items: center;
+} 

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Previsão do Tempo</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Confira o clima de uma cidade:</h1>
+        <div class="search-box">
+            <input type="text" id="city-input" placeholder="Digite o nome da cidade">
+            <button onclick="searchWeather()">
+                <span class="material-icons">search</span>
+            </button>
+        </div>
+        <div class="weather-data" style="display: none;">
+            <div class="city-name">
+                <span class="material-icons">location_on</span>
+                <span id="city">Cidade</span>
+            </div>
+            <div class="temperature">
+                <span id="temperature">--</span>°C
+            </div>
+            <div class="weather-description" id="description">--</div>
+            <div class="weather-details">
+                <div class="humidity">
+                    <span class="material-icons">water_drop</span>
+                    <span id="humidity">--%</span>
+                </div>
+                <div class="wind">
+                    <span class="material-icons">air</span>
+                    <span id="wind-speed">-- km/h</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="app.js"></script>
+</body>
+</html> 
