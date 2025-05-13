@@ -19,7 +19,7 @@ Uma aplicação web simples e elegante para consultar a previsão do tempo de qu
 
 - HTML5
 - CSS3
-- JavaScript (ES6+)
+- JavaScript 
 - OpenWeather API
 - Material Icons
 
